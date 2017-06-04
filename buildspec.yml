@@ -8,4 +8,7 @@ phases:
 
 artifacts:
   files:
-    - '**/*'
+    - target/SampleMavenTomcatApp.war
+    - appspec.yml
+  discard-paths: yes
+  #  - '**/*'
